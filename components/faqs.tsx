@@ -1,5 +1,4 @@
 import React from "react";
-import Hero from "@/components/hero";
 import {
   Accordion,
   AccordionContent,
@@ -13,7 +12,7 @@ function Faqs() {
         <div className="text-3xl md:text-4xl lg:text-5xl text-center mt-12">
             Frequently Asked Questions
         </div>
-      <div className="container flex justify-center items-center mt-12 mb-32">
+      <div className="container flex justify-center items-center mt-12 mr-2 p-4">
         <Accordion
           type="single"
           collapsible

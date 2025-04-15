@@ -63,27 +63,27 @@ const Testimonials: React.FC = () => {
     {
       name: "Ignacio Beier",
       title: "Digital Art Investor",
-      imageSrc: "/images/user2.png",
+      imageSrc: "/images/user2.jpg",
     },
     {
       name: "Megan Franey",
       title: "Crypto Enthusiast",
-      imageSrc: "/images/user3.png",
+      imageSrc: "/images/user3.jpg",
     },
     {
       name: "John Doe",
       title: "NFT Gallery Owner",
-      imageSrc: "/images/user4.png",
+      imageSrc: "/images/user4.jpg",
     },
     {
       name: "Lillie Green",
       title: "Web3 Developer",
-      imageSrc: "/images/user5.png",
+      imageSrc: "/images/user5.jpg",
     },
     {
       name: "Pedro Carroll",
       title: "Blockchain Consultant",
-      imageSrc: "/images/user6.png",
+      imageSrc: "/images/user6.jpg",
     },
   ];
 
