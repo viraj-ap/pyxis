@@ -7,7 +7,7 @@ import Image from "next/image";
 import { ModeToggle } from "@/components/toggle";
 import { Button } from "./button";
 import { useRouter } from "next/navigation";
-  
+
 interface NavbarProps {
   className?: string;
 }
@@ -21,7 +21,7 @@ export const Navbar = ({ className }: NavbarProps) => {
         className
       )}
     >
-      <div className="relative z-[60] mx-auto flex w-full max-w-7xl flex-row items-center justify-between px-4 py-4">
+      <div className="relative z-[60] mx-auto flex w-full max-w-7xl flex-row items-center justify-between px-2 md:px-4 py-4">
         <Link
           href="/"
           className="flex items-center space-x-2 rounded-md border-2 border-[var(--border)] bg-[var(--background)] px-4 py-2 shadow-[4px_4px_0px_0px_var(--border)] transition-all duration-200 hover:-translate-y-1"

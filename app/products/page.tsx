@@ -57,9 +57,8 @@ export default function ProductsPage() {
         </div>
       </div>
       
-      {/* Products Grid */}
       <div className="max-w-6xl mx-auto">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 ml-12">
           {currentProducts.map((product) => (
             <Link key={product.id} href={`/products/${product.id}`}>
               <ImageCard
